@@ -61,9 +61,9 @@ img { display: block; max-width: 100%; }
 
 .hero__img {
   width: 100%;
-  height: min(56vw, 62vh);
-  min-height: 260px;
+  aspect-ratio: 1200 / 397;
   object-fit: cover;
+  display: block;
 }
 
 .hero__nav {
@@ -304,9 +304,6 @@ img { display: block; max-width: 100%; }
 .footer__nav a { color: var(--text-body); text-decoration: none; margin: 0 0.15rem; }
 .footer__nav a:hover { color: var(--green); }
 
-/* ===================================================================
-   Responsive
-   =================================================================== */
 /* ===================================================================
    Volver al menú
    =================================================================== */
